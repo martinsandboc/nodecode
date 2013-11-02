@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int
-fib (int n)
+int fib (int n)
 {
     return n <= 1 ? 1 : fib(n-1) + fib(n-2);
 }
 
-int
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
     if (argc != 2)
     {
