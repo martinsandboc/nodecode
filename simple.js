@@ -1,4 +1,4 @@
-// Adapted from example at http://nodejs.org/
+// http://nodejs.org/
 
 var http = require('http');
 
