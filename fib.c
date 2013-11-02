@@ -18,5 +18,5 @@ main(int argc, char **argv)
     char *n_str = argv[1];
     int n = atoi(n_str);
 
-    printf("%d\n", fib(45));
+    printf("%d\n", fib(n));
 }
