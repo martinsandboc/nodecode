@@ -1,4 +1,4 @@
-// http://nodejs.org/
+// adapted from http://nodejs.org/
 
 var http = require('http');
 
