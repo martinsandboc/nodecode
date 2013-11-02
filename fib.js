@@ -13,6 +13,8 @@ function fib(n) {
 }
 
 http.createServer(function (req, res) {
+
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("the magic number is " + fib(45));
+
 }).listen(1337);

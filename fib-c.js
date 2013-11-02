@@ -2,6 +2,7 @@ var http = require('http');
 var cp = require('child_process');
 
 http.createServer(function (req, res) {
+
     res.writeHead(200, {'Content-Type': 'text/plain'});
 
     cp.exec("./fib 45", function(err, output, _) {
